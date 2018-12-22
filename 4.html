@@ -12,17 +12,50 @@
 
   gtag('config', 'UA-131252265-1');
 </script>
-
+<style>
+  body{
+    margin:0;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  ol {
+    border-right: 1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol {
+    padding-left: 33px;
+  }
+  #grid #article{
+    padding-left:25px;
+  }
+</style>
 </head>
 <body>
-  <h1><a href="index.html">우리</a></h1>
+  <h1><a href="index.html">우 리</font></a></h1>
+  <div id="grid">
   <ol>
-    <li><a href="1.html">마이</a></li>
-    <li><a href="2.html">덕식</a></li>
-    <li><a href="3.html">오사카</a></li>
-    <li><a href="4.html">연습</a></li>
+    <li><a href="1.html">마 이</a></li>
+    <li><a href="2.html">덕 식</a></li>
+    <li><a href="3.html">오 사 카</a></li>
+    <li><a href="4.html">연 습</a></li>
   </ol>
-  <h2>연습</h2>
+  <div id="article">
+    <h2>연습</h2>
     <p><input type="checkbox">나는 남자다</p>
         <input type="checkbox">나는 여자다
     <p>
@@ -51,17 +84,19 @@
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5c1b6eca82491369ba9ee5ef/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5c1b6eca82491369ba9ee5ef/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+  </div>
+</div>
 </body>
 </html>
